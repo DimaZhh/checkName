@@ -20,6 +20,7 @@ public class GoogleUiTestSearch {
         WebDriver driver = new ChromeDriver();
         driver.get(PropertyReader.getProperty("url"));
 
+
         WebElement googleSearchField = driver.findElement(By.xpath("//input[@title='Search']"));
         clickAndWriteText(googleSearchField, "Selenium");
         googleSearchField.sendKeys(Keys.ENTER);
