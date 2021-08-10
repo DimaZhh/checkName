@@ -16,6 +16,8 @@ public class GoogleUiTestSearch {
 
     public static void main(String[] args) throws IOException {
 
+        System.out.println("hell-ooo");
+
         System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get(PropertyReader.getProperty("url"));

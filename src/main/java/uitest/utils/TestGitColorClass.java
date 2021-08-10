@@ -1,2 +1,4 @@
-package uitest.utils;public class TestGitColorClass {
+package uitest.utils;
+
+public class TestGitColorClass {
 }
