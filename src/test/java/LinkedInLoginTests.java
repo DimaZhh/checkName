@@ -87,8 +87,6 @@ public class LinkedInLoginTests extends BaseTest {
 
         Assert.assertTrue(linkedInHomePage.isLinkedInHomePageLoaded());
 
-        Assert.assertEquals(1, 2);
-
         logger.info("=======> End 'checkLoginFunctionalityPositive' test");
     }
 
