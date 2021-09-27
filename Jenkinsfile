@@ -5,8 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh '''
-                pwd
-                ls
+                echo "Start Tests"
+                mvn clean test
                 '''
             }
         }
